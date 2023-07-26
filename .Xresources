@@ -1,6 +1,9 @@
 ! Use a nice truetype font and size my default
 xterm*faceName: Monospace
-xterm*faceSize: 14
+xterm*faceSize: 12
+
+!  80 Columns x 24 rows
+xterm*vt100*geometry: 80*24
 
 ! Evey shell is a login shell by default 
 xterm*loginshell: true
